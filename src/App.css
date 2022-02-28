@@ -55,16 +55,35 @@ body{
   color: white;
   background-color: rgb(65, 143, 231);
 }
-
+.btn-info:active{
+  background-color: Transparent;
+  border-color: #418fe7;
+  color: white;
+}
 .dropdown-menu{
 background-color: #212529;
 color: white;
 box-shadow: 0 5px 15px rgb(65, 143, 231, 0.2);
+transition-duration: 2s;
+transition-property: opacity;
+width: 150%;
 }
 .dropdown-item{
   color: white;
+  display: block;
+	transition: all 0.3s ease;
 }
 .dropdown-item:hover{
   background-color: rgb(65, 143, 231);
   color: white;
+  margin-left: 8px;
+  padding-right: -8px;
 }
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  
+  
+}
+
+
+

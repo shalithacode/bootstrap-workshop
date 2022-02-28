@@ -13,7 +13,7 @@ function App() {
     <Navbar.Collapse id="navbarScroll">
       <Nav
         className="me-auto my-2 my-lg-0"
-        style={{ maxHeight: '100px' }}
+        style={{ maxHeight: '600px' }}
         navbarScroll
       >
         <Nav.Link href="#action1">Home</Nav.Link>
