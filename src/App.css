@@ -51,7 +51,20 @@ body{
 
 .btn-info:hover{
 
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  box-shadow: 0 5px 15px rgb(65, 143, 231, 0.4);
   color: white;
-  background-color: #418fe7;
+  background-color: rgb(65, 143, 231);
+}
+
+.dropdown-menu{
+background-color: #212529;
+color: white;
+box-shadow: 0 5px 15px rgb(65, 143, 231, 0.2);
+}
+.dropdown-item{
+  color: white;
+}
+.dropdown-item:hover{
+  background-color: rgb(65, 143, 231);
+  color: white;
 }
