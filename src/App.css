@@ -37,12 +37,18 @@ body{
 .nav-link{
   margin-left: 15px;
   margin-right: 15px;
+  
 }
 .nav-link:hover {
  color: #418fe7;
 
 }
-
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color:  #418fe7;
+}
 .btn-info{
   background-color: Transparent;
   border-color: #418fe7;
@@ -55,8 +61,8 @@ body{
   color: white;
   background-color: rgb(65, 143, 231);
 }
-.btn-info:active{
-  background-color: Transparent;
+.btn-info:focus{
+  background-color: rgb(65, 143, 231);
   border-color: #418fe7;
   color: white;
 }
