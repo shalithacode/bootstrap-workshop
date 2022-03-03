@@ -1,0 +1,94 @@
+
+  .head{
+    border-bottom: 3px solid #418fe7;
+   font-family: 'Poppins';
+   box-shadow: 0 3px 10px rgba(30, 108, 226, 0.863);
+   
+  }
+  
+  .head.change {
+    opacity: 1;
+    transition: all 1s;
+  }
+  .logo{
+    width: 40px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  }
+  @-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+  }
+  @-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+  }
+  @keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+  }
+   .navbar-brand{
+    width:40px;
+   
+  }
+  .nav-link{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
+  .nav-link:hover {
+   color: #418fe7;
+  
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color:  #418fe7;
+  }
+  .btn-info{
+    background-color: Transparent;
+    border-color: #418fe7;
+    color: white;
+  }
+  
+  .btn-info:hover{
+  
+    box-shadow: 0 5px 15px rgb(65, 143, 231, 0.4);
+    color: white;
+    background-color: rgb(65, 143, 231);
+  }
+  .btn-info:focus{
+    background-color: rgb(65, 143, 231);
+    border-color: #418fe7;
+    color: white;
+  }
+  .dropdown-menu{
+  background-color: #212529;
+  color: white;
+  box-shadow: 0 5px 15px rgb(65, 143, 231, 0.2);
+  transition-duration: 2s;
+  transition-property: opacity;
+  width: 150%;
+  }
+  .dropdown-item{
+    color: white;
+    display: block;
+      transition: all 0.3s ease;
+  }
+  .dropdown-item:hover{
+    background-color: rgb(65, 143, 231);
+    color: white;
+    margin-left: 8px;
+    padding-right: -8px;
+  }
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    
+    
+  }
+  
+  
+  
+  
