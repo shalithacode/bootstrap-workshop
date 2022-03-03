@@ -16,10 +16,12 @@ useEffect(() => {
     return () => window.removeEventListener("resize", updateDimensions);
 }, []);
 
-let x,container_width,eBlock, dBlock; 
-container_width = '80';
+let x, eBlock, dBlock; 
+const mdSize = 768;
+let container_width = '80';
+
 x = (width * parseInt(container_width)/100)/6;
-if(width>768){
+if(width>mdSize){
  
   eBlock =5*x;
   dBlock = 2*x;
