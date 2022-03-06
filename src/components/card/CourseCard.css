@@ -1,0 +1,131 @@
+  .card {
+    max-width: 265px;
+    max-height: 100%;
+    font-family: "Poppins";
+    box-shadow: 0px 0px 11px rgba(0, 0, 0);
+    border-radius: 20px;
+    background: #212529;
+    transition: transform 0.4s;
+    overflow-x: hidden !important;
+    
+  }
+  
+  .card:hover {
+    margin-top: -6px;
+    transform: scale(1.07);
+    border: 3px solid #418fe7;
+    cursor: pointer;
+  }
+  
+  .card-img {
+    min-width: 100%;
+    height: 130px;
+
+  }
+  
+  .card-body {
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .card-price {
+    width: 61px;
+    height: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-top: -8%;
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    /* border-radius: 8px; */
+    color: #212529;
+    background: #418fe7;
+    border: 0.5px solid #fff;
+  }
+  
+  .card-title {
+    min-width: 100%;
+    min-height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #418fe7;
+  }
+  
+  .card-description {
+    min-width: 100%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color:#fff;
+  }
+  
+  .ratin-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .star-group {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+  }
+  
+  .rating-count {
+    margin-left: 10%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #418fe7;
+  }
+  
+  .icon-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .icon-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    color: #fff;
+  }
+  
+  .icon-text {
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  @media all and (min-width: 767px) and (max-width: 1024px) {
+    .card {
+      max-width: 255px;
+      min-height: 100%;
+      margin-left: 2%;
+      margin-right: 2%;
+      overflow-x: hidden !important;
+    }
+  }
